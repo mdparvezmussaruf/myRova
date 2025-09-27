@@ -149,7 +149,7 @@ body {
 }
 
 .result-container h2 {
-  font-size: 1.5rem;   /* smaller text */
+  
   line-height: 1.3;
   text-align: center;
   word-wrap: break-word;
@@ -492,4 +492,17 @@ body {
     -moz-transform: scale(0.5);
     border-color: rgb(228, 228, 228);
   }
+}
+
+@font-face {
+  font-family: "AngelDemo";
+  src: url("./AngelDemo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.love-text {
+  font-family: "AngelDemo", cursive;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #000;
 }
